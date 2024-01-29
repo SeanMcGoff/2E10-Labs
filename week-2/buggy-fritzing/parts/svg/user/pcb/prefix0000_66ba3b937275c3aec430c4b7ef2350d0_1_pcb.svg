@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" gorn="0" height="3.5980961in" id="svg2027" version="1.2" viewBox="0 0 2446.0025 3598.0961" width="2.4460025in" x="0in" xml:space="preserve"  xmlns:xml="http://www.w3.org/XML/1998/namespace" y="0in">
+    <desc >
+        <referenceFile >6xAA-battery_1_pcb.svg</referenceFile>
+    </desc>
+    <defs id="defs2031" />
+    <g gorn="0.2" id="silkscreen" >
+        <rect fill="none" gorn="0.2.0" height="3588.0962" id="rect453" stroke="#000000" stroke-width="10" width="2229.2002" x="5"  y="5"/>
+    </g>
+    <g gorn="0.3" id="copper1" >
+        <g gorn="0.3.0" id="copper0" >
+            <circle cx="2407.0024" cy="3096.7314" fill="none" gorn="0.3.0.0" id="connector0pin" r="29" stroke="#f7bd13" stroke-width="20" />
+            <circle cx="2407.0024" cy="396.25516" fill="none" gorn="0.3.0.1" id="connector1pin" r="29" stroke="#f7bd13" stroke-width="20" />
+        </g>
+    </g>
+</svg>

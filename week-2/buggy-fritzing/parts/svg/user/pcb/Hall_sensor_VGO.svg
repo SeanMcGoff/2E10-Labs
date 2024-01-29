@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19.729px"
+	 height="9.385px" viewBox="0 0 19.729 9.385" enable-background="new 0 0 19.729 9.385" xml:space="preserve">
+<g id="copper1">
+	<g id="copper0">
+		<circle id="connector2pin" fill="none" stroke="#F7BD13" stroke-width="1.25" cx="17.064" cy="4.692" r="1.771"/>
+		<circle id="connector1pin" fill="none" stroke="#F7BD13" stroke-width="1.25" cx="9.865" cy="4.691" r="1.771"/>
+		<circle id="connector0pin" fill="none" stroke="#F7BD13" stroke-width="1.25" cx="2.664" cy="4.692" r="1.771"/>
+	</g>
+</g>
+<g id="silkscreen">
+	<polygon fill="none" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" points="15.534,2.538 15.534,4.692 
+		13.408,6.847 6.323,6.846 4.195,4.692 4.195,2.538 	"/>
+</g>
+</svg>

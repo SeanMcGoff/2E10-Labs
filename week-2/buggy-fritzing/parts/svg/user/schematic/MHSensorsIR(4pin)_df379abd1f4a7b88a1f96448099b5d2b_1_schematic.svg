@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (https://fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" y="0in" width="0.69974995in" id="svg4104" gorn="0" viewBox="0 0 699.74993 500" height="0.5in"  x="0in" version="1.2">
+    <defs id="defs4108" />
+    <desc id="desc4070" >
+        <referenceFile >generic_sip_4_300mil_schem.svg</referenceFile>
+    </desc>
+    <rect y="9.8291998" width="486.34155" id="rect4072" gorn="0.2" stroke="#000000" height="480.34161" fill="none" stroke-width="19.6584"  x="203.57919" stroke-linecap="round" stroke-linejoin="round"/>
+    <text font-family="Droid Sans" y="72.610229" id="label" gorn="0.3" stroke="none" fill="#000000" text-anchor="middle"  x="510.21051" font-size="48.6111">IC</text>
+    <g font-family="Droid Sans" id="label-9" gorn="0.4" stroke="none" fill="#000000" text-anchor="middle"  font-size="48.6111">
+        <text y="200.48898" id="tspan4298" gorn="0.4.0"  x="522.198">"MH-Sensor</text>
+        <text y="261.25287" id="tspan4314" gorn="0.4.1"  x="522.198">Series"</text>
+        <text y="322.01675" id="tspan4306" gorn="0.4.2"  x="522.198">I.R. Line</text>
+        <text y="382.78061" id="tspan4312" gorn="0.4.3"  x="522.198">Following</text>
+        <text y="443.54449" id="tspan4308" gorn="0.4.4"  x="522.198">Sensor</text>
+    </g>
+    <line x1="4.8611002" id="line4075" y2="100.00001" gorn="0.5" stroke="#787878" y1="100.00001" x2="200" fill="none" stroke-width="9.7222"  stroke-linecap="round" stroke-linejoin="round"/>
+    <rect y="95.138908" width="200" id="connector0pin" gorn="0.6" height="9.7222004" fill="none" stroke-width="0"  x="0" connectorName="1"/>
+    <rect y="95.138908" width="0.1" id="connector0terminal" gorn="0.7" height="9.7222004" fill="none" stroke-width="0"  x="0"/>
+    <text font-family="Droid Sans" y="109.72201" id="label0" gorn="0.8" stroke="none" fill="#8c8c8c" text-anchor="start"  x="219.444" font-size="48.6111">A0</text>
+    <text font-family="Droid Sans" y="85.41671" id="text4080" gorn="0.9" stroke="none" stroke-width="0" fill="#8c8c8c" text-anchor="middle"  x="100" class="text" font-size="34.7222">1</text>
+    <line x1="4.8611002" id="line4082" y2="200" gorn="0.10" stroke="#787878" y1="200" x2="200" fill="none" stroke-width="9.7222"  stroke-linecap="round" stroke-linejoin="round"/>
+    <rect y="195.13901" width="200" id="connector1pin" gorn="0.11" height="9.7222004" fill="none" stroke-width="0"  x="0" connectorName="2"/>
+    <rect y="195.13901" width="0.1" id="connector1terminal" gorn="0.12" height="9.7222004" fill="none" stroke-width="0"  x="0"/>
+    <text font-family="Droid Sans" y="209.722" id="label1" gorn="0.13" stroke="none" fill="#8c8c8c" text-anchor="start"  x="219.444" font-size="48.6111">D0</text>
+    <text font-family="Droid Sans" y="185.41701" id="text4087" gorn="0.14" stroke="none" stroke-width="0" fill="#8c8c8c" text-anchor="middle"  x="100" class="text" font-size="34.7222">2</text>
+    <line x1="4.8611002" id="line4089" y2="300.00003" gorn="0.15" stroke="#787878" y1="300.00003" x2="200" fill="none" stroke-width="9.7222"  stroke-linecap="round" stroke-linejoin="round"/>
+    <rect y="295.13904" width="200" id="connector2pin" gorn="0.16" height="9.7222004" fill="none" stroke-width="0"  x="0" connectorName="3"/>
+    <rect y="295.13904" width="0.1" id="connector2terminal" gorn="0.17" height="9.7222004" fill="none" stroke-width="0"  x="0"/>
+    <text font-family="Droid Sans" y="309.72202" id="label2" gorn="0.18" stroke="none" fill="#8c8c8c" text-anchor="start"  x="219.444" font-size="48.6111">GND</text>
+    <text font-family="Droid Sans" y="285.41702" id="text4094" gorn="0.19" stroke="none" stroke-width="0" fill="#8c8c8c" text-anchor="middle"  x="100" class="text" font-size="34.7222">3</text>
+    <line x1="4.8611002" id="line4096" y2="400.00003" gorn="0.20" stroke="#787878" y1="400.00003" x2="200" fill="none" stroke-width="9.7222"  stroke-linecap="round" stroke-linejoin="round"/>
+    <rect y="395.13904" width="200" id="connector3pin" gorn="0.21" height="9.7222004" fill="none" stroke-width="0"  x="0" connectorName="4"/>
+    <rect y="395.13904" width="0.1" id="connector3terminal" gorn="0.22" height="9.7222004" fill="none" stroke-width="0"  x="0"/>
+    <text font-family="Droid Sans" y="409.72202" id="label3" gorn="0.23" stroke="none" fill="#8c8c8c" text-anchor="start"  x="219.444" font-size="48.6111">VCC</text>
+    <text font-family="Droid Sans" y="385.41702" id="text4101" gorn="0.24" stroke="none" stroke-width="0" fill="#8c8c8c" text-anchor="middle"  x="100" class="text" font-size="34.7222">4</text>
+</svg>

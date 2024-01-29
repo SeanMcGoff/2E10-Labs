@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width=".3828in" height=".3439in" version="1.2" viewBox="0 0 382.8 343.86" xmlns="http://www.w3.org/2000/svg">
+  <g id="breadboard">
+    <g fill="#8c8c8c">
+      <rect id="connector0pin" x="78.8" y="298.38" width="25.184" height="45.464"/>
+      <rect id="connector1pin" x="178.8" y="298.38" width="25.184" height="45.464"/>
+      <rect id="connector2pin" x="278.8" y="298.38" width="25.184" height="45.464"/>
+      <rect x="78.8" y="205.46" width="25.184" height="138.02"/>
+      <rect x="178.8" y="205.46" width="25.184" height="138.02"/>
+      <rect x="278.8" y="205.46" width="25.184" height="138.02"/>
+      <polygon transform="matrix(13.891 0 0 13.891 .013891 -.36578)" points="9.097 13.354 9.097 19.174 7.483 19.895 5.669 19.895 4.056 19.174 4.056 13.354"/>
+      <polygon transform="matrix(13.891 0 0 13.891 .013891 -.36578)" points="16.296 13.354 16.296 19.174 14.683 19.895 12.869 19.895 11.256 19.174 11.256 13.354"/>
+      <polygon transform="matrix(13.891 0 0 13.891 .013891 -.36578)" points="23.495 13.354 23.495 19.174 21.88 19.895 20.068 19.895 18.456 19.174 18.456 13.354"/>
+    </g>
+    <g fill="#808080">
+      <rect x="56.424" y="236.7" width="69.968" height="6.8342"/>
+      <rect x="156.52" y="236.7" width="69.968" height="6.8342"/>
+      <rect x="256.48" y="236.7" width="69.968" height="6.8342"/>
+    </g>
+    <rect x="0" y="54.768" width="382.8" height="181.9" fill="#b3b3b3"/>
+    <rect x="0" y="128.93" width="382.8" height="46.492" fill="#e6e6e6"/>
+    <rect x="0" y="53.322" width="382.8" height="95.582" fill="#f2f2f2"/>
+    <rect x="113.56" y="58.934" width="155.65" height="84.582"/>
+    <rect x="200.48" y="53.322" width="66.648" height="88.554" fill="#333333"/>
+    <rect x="200.48" y="-.018519" width="66.648" height="53.34" fill="#666666"/>
+    <rect x="3.2366" y="58.17" width="98.388" height="3.8756" fill="#ffffff" fill-opacity=".2"/>
+    <rect x="275.26" y="140.13" width="101" height="3.8756" fill-opacity=".1"/>
+    <rect x="7.8622" y="225.72" width="368.4" height="3.8478" fill-opacity=".1"/>
+    <path d="m265.2 130.28c0 5.4174-1.5558 9.8348-3.4728 9.8348-1.9169 0-3.4728-4.4312-3.4728-9.8348v-64.232c0-5.4174 1.5558-9.8348 3.4728-9.8348 1.9169 0 3.4728 4.4312 3.4728 9.8348z" fill-opacity=".25"/>
+    <g fill="#cccccc" fill-opacity=".36">
+      <rect x="262.52" y="2.982" width="1.1946" height="47.326"/>
+      <rect x="257.6" y="2.982" width="1.1946" height="47.326"/>
+      <rect x="252.68" y="2.982" width="1.1946" height="47.326"/>
+      <rect x="247.76" y="2.982" width="1.1946" height="47.326"/>
+      <rect x="242.82" y="2.982" width="1.1946" height="47.326"/>
+      <rect x="237.9" y="2.982" width="1.1946" height="47.326"/>
+      <rect x="232.98" y="2.982" width="1.1946" height="47.326"/>
+      <rect x="228.06" y="2.982" width="1.1946" height="47.326"/>
+      <rect x="223.12" y="2.982" width="1.1946" height="47.326"/>
+      <rect x="218.22" y="2.982" width="1.1946" height="47.326"/>
+      <rect x="213.28" y="2.982" width="1.1946" height="47.326"/>
+      <rect x="208.36" y="2.982" width="1.1946" height="47.326"/>
+      <rect x="203.44" y="2.982" width="1.1946" height="47.326"/>
+    </g>
+  </g>
+</svg>

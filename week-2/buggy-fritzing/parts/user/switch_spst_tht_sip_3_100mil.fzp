@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.4" moduleId="switch_spst_tht_sip_3_100mil">
+  <version>1</version>
+  <date>2021-02-22</date>
+  <label>S</label>
+  <author>H. Phil Duby</author>
+  <description>SPST slide switch with inline 100mil spacing through hole connection terminals</description>
+  <title>SPST Slide Switch</title>
+  <tags>
+    <tag>tht</tag>
+    <tag>spst</tag>
+    <tag>switch</tag>
+    <tag>slide</tag>
+    <tag>slide switch</tag>
+    <tag>spst switch</tag>
+    <tag>spst slide switch</tag>
+  </tags>
+  <properties>
+    <property name="family">Switch - 3 pin</property>
+    <property name="switching circuit">SPDT</property>
+    <property name="package">SIP THT</property>
+  </properties>
+  <views>
+    <breadboardView>
+      <layers image="breadboard/switch_spst_tht_sip_3_100mil_breadboard.svg">
+        <layer layerId="breadboard"/>
+      </layers>
+    </breadboardView>
+    <schematicView>
+      <layers image="schematic/switch_spst_3_schematic.svg">
+        <layer layerId="schematic"/>
+      </layers>
+    </schematicView>
+    <pcbView>
+      <layers image="pcb/tht_sip_3_100mil_pcb.svg">
+        <layer layerId="copper1"/>
+        <layer layerId="silkscreen"/>
+        <layer layerId="copper0"/>
+      </layers>
+    </pcbView>
+    <iconView>
+      <layers image="breadboard/sparkfun-electromechanical_kps-1290_breadboard.svg">
+        <layer layerId="icon"/>
+      </layers>
+    </iconView>
+  </views>
+  <connectors>
+    <connector id="connector0" name="L1" type="male">
+      <description>L1</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector0pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector0pin" terminalId="connector0terminal"/>
+        </schematicView>
+        <pcbView>
+          <p layer="copper0" svgId="connector0pad"/>
+          <p layer="copper1" svgId="connector0pad"/>
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector1" name="COM" type="male">
+      <description>COM</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector1pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector1pin" terminalId="connector1terminal"/>
+        </schematicView>
+        <pcbView>
+          <p layer="copper0" svgId="connector1pad"/>
+          <p layer="copper1" svgId="connector1pad"/>
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector2" name="L2" type="male">
+      <description>L2</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector2pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector2pin" terminalId="connector2terminal"/>
+        </schematicView>
+        <pcbView>
+          <p layer="copper0" svgId="connector2pad"/>
+          <p layer="copper1" svgId="connector2pad"/>
+      </pcbView>
+      </views>
+    </connector>
+  </connectors>
+  <buses/>
+</module>

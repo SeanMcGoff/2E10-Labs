@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module referenceFile="generic_sip_4_300mil.fzp" moduleId="MHSensorsIR(4pin)_df379abd1f4a7b88a1f96448099b5d2b_1">
+ <version>4</version>
+ <author>Grimmers</author>
+ <title>MH Sensor Series 4-pin IR Sensor/Line follower</title>
+ <label>M</label>
+ <date>Mon Aug 29 2022</date>
+ <tags>
+  <tag>SIP</tag>
+  <tag>fritzing core</tag>
+ </tags>
+ <properties>
+  <property name="variant">variant 5</property>
+  <property name="family">line sensor</property>
+  <property name="mn"></property>
+  <property name="hole size"></property>
+  <property name="editable pin labels">false</property>
+  <property name="pins">4</property>
+  <property name="chip label">M</property>
+  <property name="pin spacing">100mil</property>
+  <property name="mpn"></property>
+  <property name="layer"></property>
+  <property name="package">THT</property>
+  <property name="part number"></property>
+ </properties>
+ <taxonomy>part.sip.4.pins</taxonomy>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">modified version of FC-51 from Peter Van Epp (vanepp in forums)&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This is the 4-pin version of IR line follower module, using the TCRT5000 sensor and LM393 comparator&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This one has the analogue output pin, in addition to the Digital pin which is set by the trimmer.&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The Analog pin can feed an Arduino ADC input, for much better level sensing options and less drift than the crappy potentiometer setting of D0 output.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The Breadboard layout shows the pins straight (not right-angled).  They are best being bent straight, so the sensor can fit under a robot with top access to the header pins and the trimmer thru holes in the chassis.&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The sensor LEDs are shown, but face down in reality.&lt;/p>&lt;/body>&lt;/html></description>
+ <views>
+  <iconView>
+   <layers image="icon/MHSensorsIR(4pin)_df379abd1f4a7b88a1f96448099b5d2b_1_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+  <breadboardView>
+   <layers image="breadboard/MHSensorsIR(4pin)_df379abd1f4a7b88a1f96448099b5d2b_1_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/MHSensorsIR(4pin)_df379abd1f4a7b88a1f96448099b5d2b_1_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/MHSensorsIR(4pin)_df379abd1f4a7b88a1f96448099b5d2b_1_pcb.svg">
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper0"/>
+    <layer layerId="copper1"/>
+   </layers>
+  </pcbView>
+ </views>
+ <connectors>
+  <connector id="connector0" type="male" name="pin1">
+   <description>A0</description>
+   <views>
+    <breadboardView>
+     <p terminalId="connector0terminal" svgId="connector0pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector0terminal" svgId="connector0pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector0pin" layer="copper0"/>
+     <p svgId="connector0pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector1" type="male" name="pin2">
+   <description>D0</description>
+   <views>
+    <breadboardView>
+     <p terminalId="connector1terminal" svgId="connector1pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector1terminal" svgId="connector1pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector1pin" layer="copper0"/>
+     <p svgId="connector1pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector2" type="male" name="pin3">
+   <description>GND</description>
+   <views>
+    <breadboardView>
+     <p terminalId="connector2terminal" svgId="connector2pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector2terminal" svgId="connector2pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector2pin" layer="copper0"/>
+     <p svgId="connector2pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector3" type="male" name="pin4">
+   <description>VCC</description>
+   <views>
+    <breadboardView>
+     <p terminalId="connector3terminal" svgId="connector3pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector3terminal" svgId="connector3pin" layer="schematic"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector3pin" layer="copper0"/>
+     <p svgId="connector3pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+ <url>https://www.instructables.com/How-to-Use-TCRT5000-IR-Sensor-Module-With-Arduino-/</url>
+</module>

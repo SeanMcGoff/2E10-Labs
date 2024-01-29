@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<module fritzingVersion="0.9.10" moduleId="6xAA-battery_1" referenceFile="6xAA-battery_1.fzp">
+ <version>1</version>
+ <author>Venaber (modified by vanepp June 2023)</author>
+ <title>6xAA battery</title>
+ <label>BAT</label>
+ <date>Fri Jan 19 2024</date>
+ <tags>
+  <tag>contrib</tag>
+  <tag>6xAA battery</tag>
+  <tag>fritzing user</tag>
+ </tags>
+ <properties>
+  <property name="variant">variant 1</property>
+  <property name="family">6xAA battery</property>
+  <property name="part number"></property>
+  <property name="mn"></property>
+  <property name="internal resistance">0.1Ω</property>
+  <property name="voltage">7.2V</property>
+  <property name="editable pin labels">false</property>
+  <property name="layer"></property>
+  <property name="mpn"></property>
+ </properties>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">6xAA battery&lt;/p>&lt;/body>&lt;/html></description>
+ <views>
+  <iconView>
+   <layers image="icon/prefix0000_66ba3b937275c3aec430c4b7ef2350d0_1_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+  <breadboardView>
+   <layers image="breadboard/prefix0000_66ba3b937275c3aec430c4b7ef2350d0_1_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/prefix0000_66ba3b937275c3aec430c4b7ef2350d0_1_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/prefix0000_66ba3b937275c3aec430c4b7ef2350d0_1_pcb.svg">
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper0"/>
+    <layer layerId="copper1"/>
+   </layers>
+  </pcbView>
+ </views>
+ <connectors>
+  <connector id="connector0" name="Pin 1" type="male">
+   <description>BAT-</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector0pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector0pin" terminalId="connector0terminal"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector0pin"/>
+     <p layer="copper1" svgId="connector0pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector1" name="Pin 2" type="male">
+   <description>BAT+</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector1pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector1pin" terminalId="connector1terminal"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector1pin"/>
+     <p layer="copper1" svgId="connector1pin"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+</module>

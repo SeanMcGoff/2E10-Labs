@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="1.0.2b.2023-12-20.CD-1901-0-dbdbe34c" icon="Mine.png">
+    <title>My Parts</title>
+    <instances>
+        <instance moduleIdRef="MHSensorsIR(4pin)_df379abd1f4a7b88a1f96448099b5d2b_1" modelIndex="5789" path="/Users/seanmcgoff/Documents/Fritzing/parts/user/MHSensorsIR(4pin)_df379abd1f4a7b88a1f96448099b5d2b_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Hall_sensor_VGO" modelIndex="5792" path="/Users/seanmcgoff/Documents/Fritzing/parts/user/Hall_sensor_VGO.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="switch_spst_tht_sip_3_100mil" modelIndex="5795" path="/Users/seanmcgoff/Documents/Fritzing/parts/user/switch_spst_tht_sip_3_100mil.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefix0000_b8e4fe727726022bdeb60fa34e2a16cd_5" modelIndex="5798" path="/Users/seanmcgoff/Documents/Fritzing/parts/user/prefix0000_b8e4fe727726022bdeb60fa34e2a16cd_5.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="arduino-UNO-R4-wifi_1" modelIndex="5801" path="/Users/seanmcgoff/Documents/Fritzing/parts/user/arduino-UNO-R4-wifi_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="HuskyLens-Vision-Sensor_1" modelIndex="5804" path="/Users/seanmcgoff/Documents/Fritzing/parts/user/HuskyLens-Vision-Sensor_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="6xAA-battery_1" modelIndex="5807" path="/Users/seanmcgoff/Documents/Fritzing/parts/user/6xAA-battery_1.fzp">
+            <views/>
+        </instance>
+    </instances>
+</module>
