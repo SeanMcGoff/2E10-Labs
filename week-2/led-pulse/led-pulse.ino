@@ -1,8 +1,8 @@
 #define LED_PIN 13
-#define DELAY_TIME 1000
+#define DELAY_TIME 500
 
 void setup() {
-  pinMode(13, OUTPUT)
+  pinMode(LED_PIN, OUTPUT);
 }
 
 void loop() {
